@@ -6,3 +6,6 @@ export default {
   name: 'Demo',
 }
 </script>
+<style>
+
+</style>
