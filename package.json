@@ -20,7 +20,8 @@
     "build:js": "webpack --config ./webpack.component.js",
     "build:css": "npx gulp sass",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -42,6 +43,7 @@
     "vue-loader": "^15.0.0",
     "vue-template-compiler": "^2.6.14",
     "vuepress": "^1.9.10",
+    "webpack": "4",
     "webpack-cli": "^5.1.4"
   },
   "eslintConfig": {
