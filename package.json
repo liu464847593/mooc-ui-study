@@ -1,7 +1,18 @@
 {
-  "name": "mooc-ui",
+  "name": "mooc-ui-study",
   "version": "0.1.0",
-  "private": true,
+  "description": "学习慕课网演示组件库",
+  "main": "dist/index.umd.js",
+  "keywords": [
+    "mooc-ui-study",
+    "vue",
+    "ui"
+  ],
+  "author": "liu464847593",
+  "files": [
+    "dist",
+    "components"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:js && npm run build:css",

@@ -1,24 +1,24 @@
-# mooc-ui
+# mooc-ui-study 组件库
 
-## Project setup
-```
-yarn install
-```
+### 快速开始
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+#### 1.安装组件库
 
-### Compiles and minifies for production
+```bash
+npm i mooc-ui-study
 ```
-yarn build
-```
+#### 2.引入组件库
+> 在 main.js 中引入组件库
 
-### Lints and fixes files
-```
-yarn lint
-```
+```javascript
+// 全部引入
+import 'mooc-ui-study/dist/css/index.css'
+import MUI from "mooc-ui-study";
+Vue.use(MUI);
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// 按需引入
+import 'mooc-ui-study/dist/css/demo.css'
+import { Demo } from "mooc-ui-study";
+Vue.use(Demo);
+
+```
